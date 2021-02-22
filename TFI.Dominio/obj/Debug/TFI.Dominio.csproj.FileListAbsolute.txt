@@ -1,0 +1,15 @@
+C:\Users\jpsor\source\repos\TFI.Dominio\TFI.Dominio\bin\Debug\TFI.Dominio.dll
+C:\Users\jpsor\source\repos\TFI.Dominio\TFI.Dominio\bin\Debug\TFI.Dominio.pdb
+C:\Users\jpsor\source\repos\TFI.Dominio\TFI.Dominio\bin\Debug\MercadoPago.dll
+C:\Users\jpsor\source\repos\TFI.Dominio\TFI.Dominio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jpsor\source\repos\TFI.Dominio\TFI.Dominio\bin\Debug\nunit.framework.dll
+C:\Users\jpsor\source\repos\TFI.Dominio\TFI.Dominio\bin\Debug\ObjectDumper.dll
+C:\Users\jpsor\source\repos\TFI.Dominio\TFI.Dominio\bin\Debug\MercadoPago.pdb
+C:\Users\jpsor\source\repos\TFI.Dominio\TFI.Dominio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jpsor\source\repos\TFI.Dominio\TFI.Dominio\bin\Debug\nunit.framework.pdb
+C:\Users\jpsor\source\repos\TFI.Dominio\TFI.Dominio\bin\Debug\nunit.framework.xml
+C:\Users\jpsor\source\repos\TFI.Dominio\TFI.Dominio\obj\Debug\TFI.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\jpsor\source\repos\TFI.Dominio\TFI.Dominio\obj\Debug\TFI.Dominio.csproj.CopyComplete
+C:\Users\jpsor\source\repos\TFI.Dominio\TFI.Dominio\obj\Debug\TFI.Dominio.dll
+C:\Users\jpsor\source\repos\TFI.Dominio\TFI.Dominio\obj\Debug\TFI.Dominio.pdb
+C:\Users\jpsor\source\repos\TFI.Dominio\TFI.Dominio\obj\Debug\TFI.Dominio.csprojAssemblyReference.cache
