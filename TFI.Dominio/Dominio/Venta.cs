@@ -23,14 +23,6 @@ namespace TFI.Dominio
 
         public void AgregarLineaDeVenta(Indumentaria indumentaria, int cantidad)
         {
-            if(cantidad == 0)
-            {
-                throw new Exception("La cantidad no puede ser igual a 0");
-            }
-            if(cantidad < 0)
-            {
-                throw new Exception("La cantidad no puede ser negativa");
-            }
             LineaDeVenta ldv = new LineaDeVenta(indumentaria, cantidad);
             this.LineaDeVentas.Add(ldv);
         }
