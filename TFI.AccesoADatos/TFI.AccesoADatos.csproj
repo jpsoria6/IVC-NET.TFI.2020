@@ -80,6 +80,10 @@
     <Compile Include="Migrations\202102201426214_linea de venta.designer.cs">
       <DependentUpon>202102201426214_linea de venta.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202102251133493_mod stock.cs" />
+    <Compile Include="Migrations\202102251133493_mod stock.designer.cs">
+      <DependentUpon>202102251133493_mod stock.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio.cs" />
@@ -115,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202102201426214_linea de venta.resx">
       <DependentUpon>202102201426214_linea de venta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102251133493_mod stock.resx">
+      <DependentUpon>202102251133493_mod stock.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

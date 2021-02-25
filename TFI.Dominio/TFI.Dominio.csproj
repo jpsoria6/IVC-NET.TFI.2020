@@ -65,7 +65,6 @@
     <Compile Include="Dominio\Indumentaria.cs" />
     <Compile Include="Dominio\LineaDeVenta.cs" />
     <Compile Include="Dominio\Pago.cs" />
-    <Compile Include="Dominio\ReglaStock.cs" />
     <Compile Include="Dominio\Stock.cs" />
     <Compile Include="Dominio\Talle.cs" />
     <Compile Include="Dominio\Empleado.cs" />

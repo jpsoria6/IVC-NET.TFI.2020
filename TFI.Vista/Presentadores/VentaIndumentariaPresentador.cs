@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using TFI.Dominio;
 using TFI.Dominio.Contratos;
-using TFI.Dominio.Dominio;
 using TFI.Dominio.Interfaces;
 
 namespace TFI.Vista.Presentadores
@@ -50,7 +49,6 @@ namespace TFI.Vista.Presentadores
             try
             {
                 var stock = _repositorio.BuscarStock(indumentaria, talleId);
-                ReglaStock.Instance.VerificarCantidad(cantidad);
                 stock.DisminuirCantidad(cantidad);
                 Venta.AgregarLineaDeVenta(indumentaria, cantidad);
                 _vista.ActualizarVista(Venta);
