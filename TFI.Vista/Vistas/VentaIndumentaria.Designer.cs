@@ -68,17 +68,19 @@ namespace TFI.Vista.Vistas
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(13, 13);
+            this.label1.Location = new System.Drawing.Point(10, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(341, 29);
+            this.label1.Size = new System.Drawing.Size(267, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ingrese el codigo del producto";
             // 
             // TxtCodigo
             // 
-            this.TxtCodigo.Location = new System.Drawing.Point(16, 48);
+            this.TxtCodigo.Location = new System.Drawing.Point(12, 39);
+            this.TxtCodigo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TxtCodigo.Name = "TxtCodigo";
-            this.TxtCodigo.Size = new System.Drawing.Size(547, 22);
+            this.TxtCodigo.Size = new System.Drawing.Size(411, 20);
             this.TxtCodigo.TabIndex = 1;
             this.TxtCodigo.Leave += new System.EventHandler(this.TxtCodigo_Leave);
             // 
@@ -86,9 +88,10 @@ namespace TFI.Vista.Vistas
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 73);
+            this.label2.Location = new System.Drawing.Point(10, 59);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(153, 29);
+            this.label2.Size = new System.Drawing.Size(120, 24);
             this.label2.TabIndex = 2;
             this.label2.Text = "Descripcion :";
             // 
@@ -96,9 +99,10 @@ namespace TFI.Vista.Vistas
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(13, 149);
+            this.label3.Location = new System.Drawing.Point(10, 121);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 29);
+            this.label3.Size = new System.Drawing.Size(56, 24);
             this.label3.TabIndex = 3;
             this.label3.Text = "Talle:";
             // 
@@ -108,9 +112,10 @@ namespace TFI.Vista.Vistas
             this.comboTalle.DisplayMember = "Descripcion";
             this.comboTalle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboTalle.FormattingEnabled = true;
-            this.comboTalle.Location = new System.Drawing.Point(106, 145);
+            this.comboTalle.Location = new System.Drawing.Point(80, 118);
+            this.comboTalle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboTalle.Name = "comboTalle";
-            this.comboTalle.Size = new System.Drawing.Size(121, 33);
+            this.comboTalle.Size = new System.Drawing.Size(92, 28);
             this.comboTalle.TabIndex = 4;
             this.comboTalle.ValueMember = "Id";
             // 
@@ -122,18 +127,20 @@ namespace TFI.Vista.Vistas
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 187);
+            this.label4.Location = new System.Drawing.Point(9, 152);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(115, 29);
+            this.label4.Size = new System.Drawing.Size(89, 24);
             this.label4.TabIndex = 5;
             this.label4.Text = "Cantidad:";
             // 
             // TxtCantidad
             // 
             this.TxtCantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCantidad.Location = new System.Drawing.Point(131, 184);
+            this.TxtCantidad.Location = new System.Drawing.Point(98, 150);
+            this.TxtCantidad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TxtCantidad.Name = "TxtCantidad";
-            this.TxtCantidad.Size = new System.Drawing.Size(96, 30);
+            this.TxtCantidad.Size = new System.Drawing.Size(73, 26);
             this.TxtCantidad.TabIndex = 6;
             this.TxtCantidad.Leave += new System.EventHandler(this.TxtCantidad_Leave);
             // 
@@ -149,11 +156,12 @@ namespace TFI.Vista.Vistas
             this.Subtotal});
             this.dataGridLineaVenta.DataBindings.Add(new System.Windows.Forms.Binding("Tag", this.lineaDeVentaBindingSource, "Indumentaria", true));
             this.dataGridLineaVenta.DataSource = this.lineaDeVentaBindingSource;
-            this.dataGridLineaVenta.Location = new System.Drawing.Point(12, 224);
+            this.dataGridLineaVenta.Location = new System.Drawing.Point(9, 182);
+            this.dataGridLineaVenta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridLineaVenta.Name = "dataGridLineaVenta";
             this.dataGridLineaVenta.RowHeadersWidth = 51;
             this.dataGridLineaVenta.RowTemplate.Height = 24;
-            this.dataGridLineaVenta.Size = new System.Drawing.Size(757, 157);
+            this.dataGridLineaVenta.Size = new System.Drawing.Size(568, 128);
             this.dataGridLineaVenta.TabIndex = 7;
             // 
             // idDataGridViewTextBoxColumn
@@ -195,9 +203,10 @@ namespace TFI.Vista.Vistas
             // 
             this.btnAgregarIndumentaria.BackgroundImage = global::TFI.Vista.Properties.Resources.plus;
             this.btnAgregarIndumentaria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnAgregarIndumentaria.Location = new System.Drawing.Point(367, 110);
+            this.btnAgregarIndumentaria.Location = new System.Drawing.Point(275, 89);
+            this.btnAgregarIndumentaria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAgregarIndumentaria.Name = "btnAgregarIndumentaria";
-            this.btnAgregarIndumentaria.Size = new System.Drawing.Size(86, 86);
+            this.btnAgregarIndumentaria.Size = new System.Drawing.Size(64, 70);
             this.btnAgregarIndumentaria.TabIndex = 8;
             this.btnAgregarIndumentaria.UseVisualStyleBackColor = true;
             this.btnAgregarIndumentaria.Click += new System.EventHandler(this.btnAgregarIndumentaria_Click);
@@ -206,9 +215,10 @@ namespace TFI.Vista.Vistas
             // 
             this.btnEliminarIndumentaria.BackgroundImage = global::TFI.Vista.Properties.Resources.trash;
             this.btnEliminarIndumentaria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnEliminarIndumentaria.Location = new System.Drawing.Point(477, 110);
+            this.btnEliminarIndumentaria.Location = new System.Drawing.Point(358, 89);
+            this.btnEliminarIndumentaria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEliminarIndumentaria.Name = "btnEliminarIndumentaria";
-            this.btnEliminarIndumentaria.Size = new System.Drawing.Size(86, 86);
+            this.btnEliminarIndumentaria.Size = new System.Drawing.Size(64, 70);
             this.btnEliminarIndumentaria.TabIndex = 9;
             this.btnEliminarIndumentaria.UseVisualStyleBackColor = true;
             this.btnEliminarIndumentaria.Click += new System.EventHandler(this.btnEliminarIndumentaria_Click);
@@ -217,9 +227,10 @@ namespace TFI.Vista.Vistas
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(522, 384);
+            this.label5.Location = new System.Drawing.Point(392, 312);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(98, 29);
+            this.label5.Size = new System.Drawing.Size(77, 24);
             this.label5.TabIndex = 10;
             this.label5.Text = "TOTAL:";
             // 
@@ -227,18 +238,20 @@ namespace TFI.Vista.Vistas
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(522, 431);
+            this.label7.Location = new System.Drawing.Point(392, 350);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(123, 29);
+            this.label7.Size = new System.Drawing.Size(95, 24);
             this.label7.TabIndex = 12;
             this.label7.Text = "IMPORTE";
             // 
             // txtImporte
             // 
             this.txtImporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtImporte.Location = new System.Drawing.Point(651, 426);
+            this.txtImporte.Location = new System.Drawing.Point(488, 346);
+            this.txtImporte.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtImporte.Name = "txtImporte";
-            this.txtImporte.Size = new System.Drawing.Size(96, 34);
+            this.txtImporte.Size = new System.Drawing.Size(73, 28);
             this.txtImporte.TabIndex = 13;
             this.txtImporte.Leave += new System.EventHandler(this.txtImporte_Leave);
             // 
@@ -246,18 +259,20 @@ namespace TFI.Vista.Vistas
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(522, 465);
+            this.label8.Location = new System.Drawing.Point(392, 378);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(140, 29);
+            this.label8.Size = new System.Drawing.Size(111, 24);
             this.label8.TabIndex = 14;
             this.label8.Text = "VUELTO : $";
             // 
             // btnConcretarVenta
             // 
             this.btnConcretarVenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConcretarVenta.Location = new System.Drawing.Point(180, 509);
+            this.btnConcretarVenta.Location = new System.Drawing.Point(135, 414);
+            this.btnConcretarVenta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnConcretarVenta.Name = "btnConcretarVenta";
-            this.btnConcretarVenta.Size = new System.Drawing.Size(223, 42);
+            this.btnConcretarVenta.Size = new System.Drawing.Size(167, 34);
             this.btnConcretarVenta.TabIndex = 15;
             this.btnConcretarVenta.Text = "Concretar Venta";
             this.btnConcretarVenta.UseVisualStyleBackColor = true;
@@ -266,9 +281,10 @@ namespace TFI.Vista.Vistas
             // btnRealizarVenta
             // 
             this.btnRealizarVenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRealizarVenta.Location = new System.Drawing.Point(416, 509);
+            this.btnRealizarVenta.Location = new System.Drawing.Point(312, 414);
+            this.btnRealizarVenta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRealizarVenta.Name = "btnRealizarVenta";
-            this.btnRealizarVenta.Size = new System.Drawing.Size(208, 42);
+            this.btnRealizarVenta.Size = new System.Drawing.Size(156, 34);
             this.btnRealizarVenta.TabIndex = 16;
             this.btnRealizarVenta.Text = "Cancelar Venta";
             this.btnRealizarVenta.UseVisualStyleBackColor = true;
@@ -278,9 +294,10 @@ namespace TFI.Vista.Vistas
             // 
             this.LblDescripcion.AutoSize = true;
             this.LblDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblDescripcion.Location = new System.Drawing.Point(170, 73);
+            this.LblDescripcion.Location = new System.Drawing.Point(128, 59);
+            this.LblDescripcion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblDescripcion.Name = "LblDescripcion";
-            this.LblDescripcion.Size = new System.Drawing.Size(98, 29);
+            this.LblDescripcion.Size = new System.Drawing.Size(80, 24);
             this.LblDescripcion.TabIndex = 17;
             this.LblDescripcion.Text = "XXXXX";
             // 
@@ -288,9 +305,10 @@ namespace TFI.Vista.Vistas
             // 
             this.txtVuelto.AutoSize = true;
             this.txtVuelto.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtVuelto.Location = new System.Drawing.Point(668, 465);
+            this.txtVuelto.Location = new System.Drawing.Point(501, 378);
+            this.txtVuelto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtVuelto.Name = "txtVuelto";
-            this.txtVuelto.Size = new System.Drawing.Size(26, 29);
+            this.txtVuelto.Size = new System.Drawing.Size(20, 24);
             this.txtVuelto.TabIndex = 18;
             this.txtVuelto.Text = "0";
             // 
@@ -299,9 +317,10 @@ namespace TFI.Vista.Vistas
             this.lblTotal.AutoSize = true;
             this.lblTotal.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bsVenta, "Total", true, System.Windows.Forms.DataSourceUpdateMode.OnValidation, "0", "C2"));
             this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.Location = new System.Drawing.Point(646, 384);
+            this.lblTotal.Location = new System.Drawing.Point(484, 312);
+            this.lblTotal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(97, 29);
+            this.lblTotal.Size = new System.Drawing.Size(75, 24);
             this.lblTotal.TabIndex = 19;
             this.lblTotal.Text = "9999.99";
             // 
@@ -313,9 +332,10 @@ namespace TFI.Vista.Vistas
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(13, 109);
+            this.label6.Location = new System.Drawing.Point(10, 89);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(95, 29);
+            this.label6.Size = new System.Drawing.Size(74, 24);
             this.label6.TabIndex = 20;
             this.label6.Text = "Precio: ";
             // 
@@ -323,17 +343,18 @@ namespace TFI.Vista.Vistas
             // 
             this.lblPrecio.AutoSize = true;
             this.lblPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrecio.Location = new System.Drawing.Point(101, 109);
+            this.lblPrecio.Location = new System.Drawing.Point(76, 89);
+            this.lblPrecio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPrecio.Name = "lblPrecio";
-            this.lblPrecio.Size = new System.Drawing.Size(26, 29);
+            this.lblPrecio.Size = new System.Drawing.Size(20, 24);
             this.lblPrecio.TabIndex = 21;
             this.lblPrecio.Text = "$";
             // 
             // VentaIndumentaria
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(782, 553);
+            this.ClientSize = new System.Drawing.Size(586, 449);
             this.Controls.Add(this.lblPrecio);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.lblTotal);
@@ -355,8 +376,9 @@ namespace TFI.Vista.Vistas
             this.Controls.Add(this.label2);
             this.Controls.Add(this.TxtCodigo);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "VentaIndumentaria";
-            this.Text = "Form1";
+            this.Text = "Venta de Indumentaria";
             ((System.ComponentModel.ISupportInitialize)(this.bsTalle)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridLineaVenta)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lineaDeVentaBindingSource)).EndInit();

@@ -41,9 +41,10 @@ namespace TFI.Vista
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(271, 84);
+            this.label1.Location = new System.Drawing.Point(203, 68);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(223, 55);
+            this.label1.Size = new System.Drawing.Size(177, 44);
             this.label1.TabIndex = 0;
             this.label1.Text = "IVC-NET";
             // 
@@ -54,11 +55,12 @@ namespace TFI.Vista
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 73.48285F));
             this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnVentaIndumentaria, 1, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 205);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(9, 167);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(758, 98);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(568, 80);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // pictureBox1
@@ -66,9 +68,10 @@ namespace TFI.Vista
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::TFI.Vista.Properties.Resources.shopping_cart;
             this.pictureBox1.InitialImage = global::TFI.Vista.Properties.Resources.shopping_cart;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(195, 92);
+            this.pictureBox1.Size = new System.Drawing.Size(146, 76);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -77,9 +80,10 @@ namespace TFI.Vista
             // 
             this.btnVentaIndumentaria.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnVentaIndumentaria.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVentaIndumentaria.Location = new System.Drawing.Point(204, 3);
+            this.btnVentaIndumentaria.Location = new System.Drawing.Point(152, 2);
+            this.btnVentaIndumentaria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnVentaIndumentaria.Name = "btnVentaIndumentaria";
-            this.btnVentaIndumentaria.Size = new System.Drawing.Size(551, 92);
+            this.btnVentaIndumentaria.Size = new System.Drawing.Size(414, 76);
             this.btnVentaIndumentaria.TabIndex = 1;
             this.btnVentaIndumentaria.Text = "Venta de Indumentaria";
             this.btnVentaIndumentaria.UseVisualStyleBackColor = true;
@@ -87,13 +91,14 @@ namespace TFI.Vista
             // 
             // MenuPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(782, 553);
+            this.ClientSize = new System.Drawing.Size(586, 449);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MenuPrincipal";
-            this.Text = "Form1";
+            this.Text = "Menu Principal";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MenuPrincipal_FormClosed);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
